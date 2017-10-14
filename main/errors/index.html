@@ -1,0 +1,2562 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Mixapp.io Docs">
+      
+      
+        <link rel="canonical" href="https://mixapp.io/main/errors/">
+      
+      
+        <meta name="author" content="Nikita Kortunov">
+      
+      
+        <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.7.3">
+    
+    
+      
+        <title>Error codes - Documentation</title>
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr-1df76c4e58.js"></script>
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application-acc56dad49.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-8817cfa535.palette.css">
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+  
+  
+  
+    <body data-md-color-primary="green" data-md-color-accent="light-blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <a href="https://mixapp.io" title="Documentation" class="md-icon md-icon--home md-header-nav__button">
+          </a>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+            
+            Error codes
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result" data-md-lang-search="">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    
+      <i class="md-icon md-icon--home md-nav__button"></i>
+    
+    Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      BPM Engine
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        BPM Engine
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../process/" title="Process" class="md-nav__link">
+      Process
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../connector/" title="Connector" class="md-nav__link">
+      Connector
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../context/" title="Context" class="md-nav__link">
+      Context
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../bpmapi/" title="API" class="md-nav__link">
+      API
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../newconnector/" title="Creating connector" class="md-nav__link">
+      Creating connector
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Storage
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Storage
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../storage/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../storage/protocol/" title="Protocol" class="md-nav__link">
+      Protocol
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      REST API
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        REST API
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../restapi/user/" title="User" class="md-nav__link">
+      User
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../restapi/workspaces/" title="Workplaces" class="md-nav__link">
+      Workplaces
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../restapi/storages/" title="Storages" class="md-nav__link">
+      Storages
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../restapi/connectors/" title="Connectors" class="md-nav__link">
+      Connectors
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../restapi/processes/" title="Processes" class="md-nav__link">
+      Processes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../restapi/oidc/" title="Openid Connect" class="md-nav__link">
+      Openid Connect
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      SDKs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        SDKs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-1" type="checkbox" id="nav-6-1">
+    
+    <label class="md-nav__link" for="nav-6-1">
+      JavaScript
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-1">
+        JavaScript
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sdk/js/" title="Get Started" class="md-nav__link">
+      Get Started
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sdk/js/service/" title="Service" class="md-nav__link">
+      Service
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sdk/js/workspace/" title="Workspace" class="md-nav__link">
+      Workspace
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sdk/js/storage/" title="Storage" class="md-nav__link">
+      Storage
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sdk/js/process/" title="Process" class="md-nav__link">
+      Process
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Error codes
+      </label>
+    
+    <a href="./" title="Error codes" class="md-nav__link md-nav__link--active">
+      Error codes
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#code-description" title="Code description" class="md-nav__link">
+    Code description
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#500" title="500" class="md-nav__link">
+    500
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#600" title="600" class="md-nav__link">
+    600
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#601" title="601" class="md-nav__link">
+    601
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#602" title="602" class="md-nav__link">
+    602
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#603" title="603" class="md-nav__link">
+    603
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#604" title="604" class="md-nav__link">
+    604
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#605" title="605" class="md-nav__link">
+    605
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#606" title="606" class="md-nav__link">
+    606
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#607" title="607" class="md-nav__link">
+    607
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#608" title="608" class="md-nav__link">
+    608
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#609" title="609" class="md-nav__link">
+    609
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#610" title="610" class="md-nav__link">
+    610
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#611" title="611" class="md-nav__link">
+    611
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#612" title="612" class="md-nav__link">
+    612
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#613" title="613" class="md-nav__link">
+    613
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#614" title="614" class="md-nav__link">
+    614
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#615" title="615" class="md-nav__link">
+    615
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#616" title="616" class="md-nav__link">
+    616
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#617" title="617" class="md-nav__link">
+    617
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#618" title="618" class="md-nav__link">
+    618
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#619" title="619" class="md-nav__link">
+    619
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#620" title="620" class="md-nav__link">
+    620
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#621" title="621" class="md-nav__link">
+    621
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#622" title="622" class="md-nav__link">
+    622
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#623" title="623" class="md-nav__link">
+    623
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#624" title="624" class="md-nav__link">
+    624
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#625" title="625" class="md-nav__link">
+    625
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#626" title="626" class="md-nav__link">
+    626
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#627" title="627" class="md-nav__link">
+    627
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#628" title="628" class="md-nav__link">
+    628
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#629" title="629" class="md-nav__link">
+    629
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#630" title="630" class="md-nav__link">
+    630
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#631" title="631" class="md-nav__link">
+    631
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#632" title="632" class="md-nav__link">
+    632
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#633" title="633" class="md-nav__link">
+    633
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#634" title="634" class="md-nav__link">
+    634
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#635" title="635" class="md-nav__link">
+    635
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#636" title="636" class="md-nav__link">
+    636
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#637" title="637" class="md-nav__link">
+    637
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#638" title="638" class="md-nav__link">
+    638
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#639" title="639" class="md-nav__link">
+    639
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#640" title="640" class="md-nav__link">
+    640
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#641" title="641" class="md-nav__link">
+    641
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#642" title="642" class="md-nav__link">
+    642
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#643" title="643" class="md-nav__link">
+    643
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#644" title="644" class="md-nav__link">
+    644
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#645" title="645" class="md-nav__link">
+    645
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#646" title="646" class="md-nav__link">
+    646
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#647" title="647" class="md-nav__link">
+    647
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#648" title="648" class="md-nav__link">
+    648
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#649" title="649" class="md-nav__link">
+    649
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#650" title="650" class="md-nav__link">
+    650
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#651" title="651" class="md-nav__link">
+    651
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#652" title="652" class="md-nav__link">
+    652
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#653" title="653" class="md-nav__link">
+    653
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#654" title="654" class="md-nav__link">
+    654
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#655" title="655" class="md-nav__link">
+    655
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#656" title="656" class="md-nav__link">
+    656
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#657" title="657" class="md-nav__link">
+    657
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#658" title="658" class="md-nav__link">
+    658
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#659" title="659" class="md-nav__link">
+    659
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#660" title="660" class="md-nav__link">
+    660
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#661" title="661" class="md-nav__link">
+    661
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#662" title="662" class="md-nav__link">
+    662
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#663" title="663" class="md-nav__link">
+    663
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#664" title="664" class="md-nav__link">
+    664
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#665" title="665" class="md-nav__link">
+    665
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#666" title="666" class="md-nav__link">
+    666
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#667" title="667" class="md-nav__link">
+    667
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#668" title="668" class="md-nav__link">
+    668
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#669" title="669" class="md-nav__link">
+    669
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#670" title="670" class="md-nav__link">
+    670
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#671" title="671" class="md-nav__link">
+    671
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#672" title="672" class="md-nav__link">
+    672
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#673" title="673" class="md-nav__link">
+    673
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#674" title="674" class="md-nav__link">
+    674
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#675" title="675" class="md-nav__link">
+    675
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../standalone/" title="Standalone" class="md-nav__link">
+      Standalone
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#code-description" title="Code description" class="md-nav__link">
+    Code description
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#500" title="500" class="md-nav__link">
+    500
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#600" title="600" class="md-nav__link">
+    600
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#601" title="601" class="md-nav__link">
+    601
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#602" title="602" class="md-nav__link">
+    602
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#603" title="603" class="md-nav__link">
+    603
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#604" title="604" class="md-nav__link">
+    604
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#605" title="605" class="md-nav__link">
+    605
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#606" title="606" class="md-nav__link">
+    606
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#607" title="607" class="md-nav__link">
+    607
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#608" title="608" class="md-nav__link">
+    608
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#609" title="609" class="md-nav__link">
+    609
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#610" title="610" class="md-nav__link">
+    610
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#611" title="611" class="md-nav__link">
+    611
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#612" title="612" class="md-nav__link">
+    612
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#613" title="613" class="md-nav__link">
+    613
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#614" title="614" class="md-nav__link">
+    614
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#615" title="615" class="md-nav__link">
+    615
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#616" title="616" class="md-nav__link">
+    616
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#617" title="617" class="md-nav__link">
+    617
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#618" title="618" class="md-nav__link">
+    618
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#619" title="619" class="md-nav__link">
+    619
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#620" title="620" class="md-nav__link">
+    620
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#621" title="621" class="md-nav__link">
+    621
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#622" title="622" class="md-nav__link">
+    622
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#623" title="623" class="md-nav__link">
+    623
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#624" title="624" class="md-nav__link">
+    624
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#625" title="625" class="md-nav__link">
+    625
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#626" title="626" class="md-nav__link">
+    626
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#627" title="627" class="md-nav__link">
+    627
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#628" title="628" class="md-nav__link">
+    628
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#629" title="629" class="md-nav__link">
+    629
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#630" title="630" class="md-nav__link">
+    630
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#631" title="631" class="md-nav__link">
+    631
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#632" title="632" class="md-nav__link">
+    632
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#633" title="633" class="md-nav__link">
+    633
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#634" title="634" class="md-nav__link">
+    634
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#635" title="635" class="md-nav__link">
+    635
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#636" title="636" class="md-nav__link">
+    636
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#637" title="637" class="md-nav__link">
+    637
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#638" title="638" class="md-nav__link">
+    638
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#639" title="639" class="md-nav__link">
+    639
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#640" title="640" class="md-nav__link">
+    640
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#641" title="641" class="md-nav__link">
+    641
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#642" title="642" class="md-nav__link">
+    642
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#643" title="643" class="md-nav__link">
+    643
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#644" title="644" class="md-nav__link">
+    644
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#645" title="645" class="md-nav__link">
+    645
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#646" title="646" class="md-nav__link">
+    646
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#647" title="647" class="md-nav__link">
+    647
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#648" title="648" class="md-nav__link">
+    648
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#649" title="649" class="md-nav__link">
+    649
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#650" title="650" class="md-nav__link">
+    650
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#651" title="651" class="md-nav__link">
+    651
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#652" title="652" class="md-nav__link">
+    652
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#653" title="653" class="md-nav__link">
+    653
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#654" title="654" class="md-nav__link">
+    654
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#655" title="655" class="md-nav__link">
+    655
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#656" title="656" class="md-nav__link">
+    656
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#657" title="657" class="md-nav__link">
+    657
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#658" title="658" class="md-nav__link">
+    658
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#659" title="659" class="md-nav__link">
+    659
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#660" title="660" class="md-nav__link">
+    660
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#661" title="661" class="md-nav__link">
+    661
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#662" title="662" class="md-nav__link">
+    662
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#663" title="663" class="md-nav__link">
+    663
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#664" title="664" class="md-nav__link">
+    664
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#665" title="665" class="md-nav__link">
+    665
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#666" title="666" class="md-nav__link">
+    666
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#667" title="667" class="md-nav__link">
+    667
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#668" title="668" class="md-nav__link">
+    668
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#669" title="669" class="md-nav__link">
+    669
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#670" title="670" class="md-nav__link">
+    670
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#671" title="671" class="md-nav__link">
+    671
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#672" title="672" class="md-nav__link">
+    672
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#673" title="673" class="md-nav__link">
+    673
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#674" title="674" class="md-nav__link">
+    674
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#675" title="675" class="md-nav__link">
+    675
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="error-codes">Error codes:</h1>
+<p>All returned errors have the following form:</p>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: &lt;int&gt;,
+    error_message: &lt;string&gt;,
+    more_info: &lt;string&gt;
+}
+</pre></div>
+
+
+<h2 id="code-description">Code description</h2>
+<h4 id="500">500</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 500,
+    error_message: &#39;Internal error&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#500&#39;
+}
+</pre></div>
+
+
+<p>Internal error, error data logged additionally. </p>
+<h4 id="600">600</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 600,
+    error_message: &#39;Workplace not found&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#600&#39;
+}
+</pre></div>
+
+
+<p>Error occurs when a non-existent workplace is addressed.</p>
+<h4 id="601">601</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 601,
+    error_message: &#39;Workplace schema isn&#39;t valid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#601&#39;
+}
+</pre></div>
+
+
+<p>Error occurs when an invalid scheme is transmitted or when an error has 
+occurred in the type of transmitted data while saving or updating. </p>
+<h4 id="602">602</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 602,
+    error_message: &#39;Workplace is already exist&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#602&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if this workplace already exists.</p>
+<h4 id="603">603</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 603,
+    error_message: &#39;Name of workplace is incorrect&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#603&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if workplace name in the query has a wrong format or is empty.</p>
+<h4 id="604">604</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 604,
+    error_message: &#39;Storage schema is invalid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#604&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if an invalid scheme is transmitted while creating the storage 
+or if an error has occurred in the type of transmitted data while saving or updating.</p>
+<h4 id="605">605</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 605,
+    error_message: &#39;ACL of storage isn&#39;t valid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#605&#39;
+}
+</pre></div>
+
+
+<p>Invalid ACL transmitted in the query.</p>
+<h4 id="606">606</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 606,
+    error_message: &#39;Exceeded max number of storages&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#606&#39;
+}
+</pre></div>
+
+
+<p>Maximum number of storages reached.</p>
+<h4 id="607">607</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 607,
+    error_message: &#39;Name of storage is already exist&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#607&#39;
+}
+</pre></div>
+
+
+<p>A storage with this name already exists.</p>
+<h4 id="608">608</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 608,
+    error_message: &#39;Name of storage must be more 3 chars&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#608&#39;
+}
+</pre></div>
+
+
+<p>Storage name cannot be less than 3 symbols.</p>
+<h4 id="609">609</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 609,
+    error_message: &#39;Name of storage not found&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#609&#39;
+}
+</pre></div>
+
+
+<p>Error occurs when a non-existent storage is requested.</p>
+<h4 id="610">610</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 610,
+    error_message: &#39;Id of storage isn&#39;t valid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#610&#39;
+}
+</pre></div>
+
+
+<p>Invalid storage identifier transmitted.</p>
+<h4 id="611">611</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 611,
+    error_message: &#39;Index isn&#39;t valid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#611&#39;
+}
+</pre></div>
+
+
+<p>Invalid index transmitted.</p>
+<h4 id="612">612</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 612,
+    error_message: &#39;Storage protocol isn&#39;t valid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#612&#39;
+}
+</pre></div>
+
+
+<p>Invalid format transmitted for working with storage files.</p>
+<h4 id="613">613</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 613,
+    error_message: &#39;Process schema isn&#39;t valid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#613&#39;
+}
+</pre></div>
+
+
+<p>Invalid process data transmitted or an error has occurred in the type of 
+data transmitted.</p>
+<h4 id="614">614</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 614,
+    error_message: &#39;Title of process must be more than 3 chars&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#614&#39;
+}
+</pre></div>
+
+
+<p>Process name cannot be less than 3 symbols.</p>
+<h4 id="615">615</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 615,
+    error_message: &#39;Name of variable is invalid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#615&#39;
+}
+</pre></div>
+
+
+<p>Variable name empty or invalid.</p>
+<h4 id="616">616</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 616,
+    error_message: &#39;Unknown variable type&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#616&#39;
+}
+</pre></div>
+
+
+<p>Unknown variable type transmitted.</p>
+<h4 id="617">617</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 617,
+    error_message: &#39;Id of ACL is invalid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#617&#39;
+}
+</pre></div>
+
+
+<p>Invalid ACL transmitted.</p>
+<h4 id="618">618</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 618,
+    error_message: &#39;Process not found&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#618&#39;
+}
+</pre></div>
+
+
+<p>Non-existent or remote process requested.</p>
+<h4 id="619">619</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 619,
+    error_message: &#39;Process is running, can&#39;t edit&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#619&#39;
+}
+</pre></div>
+
+
+<p>This error occurs when updating a running process is attempted.</p>
+<h4 id="620">620</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 620,
+    error_message: &#39;Id of process isn&#39;t valid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#620&#39;
+}
+</pre></div>
+
+
+<p>Invalid process identifier transmitted.</p>
+<h4 id="621">621</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 621,
+    error_message: &#39;Schema of connector isn&#39;t valid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#621&#39;
+}
+</pre></div>
+
+
+<p>Invalid connector format transmitted or an error has occurred in connector type.</p>
+<h4 id="622">622</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 622,
+    error_message: &#39;Unknown connector type&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#622&#39;
+}
+</pre></div>
+
+
+<p>Unknown connector type transmitted.</p>
+<h4 id="623">623</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 623,
+    error_message: &#39;Missing &lt;some text&gt;&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#623&#39;
+}
+</pre></div>
+
+
+<p>Error occurs at connector validation and indicates that an obligatory 
+section in connector parameters has been omitted.</p>
+<h4 id="624">624</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 624,
+    error_message: &#39;Invalid type of connector&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#624&#39;
+}
+</pre></div>
+
+
+<p>Error occurs when trying to create a “start” or “stop” type connector.</p>
+<h4 id="625">625</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 625,
+    error_message: &#39;&lt;some text&gt;&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#625&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if the user handler for connector parameters returns an 
+error at validation. Error text is set by the user in the handler.</p>
+<h4 id="626">626</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 626,
+    error_message: &#39;Id of connector isn&#39;t valid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#626&#39;
+}
+</pre></div>
+
+
+<p>Invalid connector identifier transmitted.</p>
+<h4 id="627">627</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 627,
+    error_message: &#39;Connector not found&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#627&#39;
+}
+</pre></div>
+
+
+<p>Error occurs when a non-existent connector is addressed.</p>
+<h4 id="628">628</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 628,
+    error_message: &#39;Not equal types&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#628&#39;
+}
+</pre></div>
+
+
+<p>Error occurs at connector update if a type is transmitted that does not 
+correspond to the initial type. </p>
+<h4 id="629">629</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 629,
+    error_message: &#39;Use different ids&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#629&#39;
+}
+</pre></div>
+
+
+<p>Error occurs when the connector tries to connect to itself.</p>
+<h4 id="630">630</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 630,
+    error_message: &#39;Stop can&#39;t be parent&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#630&#39;
+}
+</pre></div>
+
+
+<p>Error occurs at attempt to create a connector with a “stop” type outbound 
+connection.</p>
+<h4 id="631">631</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 631,
+    error_message: &#39;The timer may have only one child&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#631&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if more than one child connector attempts to connect to the timer.</p>
+<h4 id="632">632</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 632,
+    error_message: &#39;Start can&#39;t have parent&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#632&#39;
+}
+</pre></div>
+
+
+<p>Error occurs at connection attempt when a “start” connector acts as a child connector.</p>
+<h4 id="633">633</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 633,
+    error_message: &#39;The timer may have only one parent&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#633&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if more than one parent connector attempts to connect to the timer.</p>
+<h4 id="634">634</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 634,
+    error_message: &#39;Alias already exists&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#634&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if a connection between the connectors already exists.</p>
+<h4 id="635">635</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 635,
+    error_message: &#39;Alias not found&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#635&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if no connection between the connectors has been established.</p>
+<h4 id="636">636</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 636,
+    error_message: &#39;Alias allows only for task or case&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#636&#39;
+}
+</pre></div>
+
+
+<p>Connection name can only be established for steps of the following type: “case”, “task”. </p>
+<h4 id="637">637</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 637,
+    error_message: &#39;Unknown result name&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#637&#39;
+}
+</pre></div>
+
+
+<p>Error occurs when creating connection name, if the branch for this name is not specified in the parameters of the “results” section.</p>
+<h4 id="638">638</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 638,
+    error_message: &#39;Id already exists&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#638&#39;
+}
+</pre></div>
+
+
+<p>Error occurs when validating the “results” section for a “case” type step, 
+if the child connector identifier is already contained in the array for this section.</p>
+<h4 id="639">639</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 639,
+    error_message: &#39;Schema of variable isn&#39;t valid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#639&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if an invalid scheme is transmitted for the variable or if 
+an error has occurred in the type of data transmitted.</p>
+<h4 id="640">640</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 640,
+    error_message: &#39;Variable already exists&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#640&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if an existing variable is created. </p>
+<h4 id="641">641</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 641,
+    error_message: &#39;Value of string is incorrect&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#641&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if an invalid string type is transmitted in the “value” section.</p>
+<h4 id="642">642</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 642,
+    error_message: &#39;Value of date is incorrect&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#642&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if an invalid date type is transmitted in the “value” section.</p>
+<h4 id="643">643</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 643,
+    error_message: &#39;Variable isn&#39;t set&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#643&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if no values for obligatory variables were transmitted in 
+the request when creating the process.</p>
+<h4 id="644">644</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 644,
+    error_message: &#39;Incorrect type of variable&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#644&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if the transmitted variable has a different type at the time of process creation.</p>
+<h4 id="645">645</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 645,
+    error_message: &#39;Connector has no previous connectors&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#645&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if the handled connector has no connection to the parent connector.</p>
+<h4 id="646">646</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 646,
+    error_message: &#39;Parent сonnector is not equal to a current connector&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#646&#39;
+}
+</pre></div>
+
+
+<p>Error occurs if the connector to be handled has no connection to the executing connector.</p>
+<h4 id="647">647</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 647,
+    error_message: &#39;Invalid parentId&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#647&#39;
+}
+</pre></div>
+
+
+<p>The error occurs if an invalid identifier of the inherited connector is transmitted.</p>
+<h4 id="648">648</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 648,
+    error_message: &#39;Parent connector not found&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#648&#39;
+}
+</pre></div>
+
+
+<p>The error occurs if the inherited connector is not found.</p>
+<h4 id="649">649</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 649,
+    error_message: &#39;Email isn&#39;t valid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#649&#39;
+}
+</pre></div>
+
+
+<p>The error occurs if an invalid or empty e-mail is transmitted.</p>
+<h4 id="650">650</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 650,
+    error_message: &#39;User name must be longer than 5 chars&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#650&#39;
+}
+</pre></div>
+
+
+<p>User name must contain at least 5 characters</p>
+<h4 id="651">651</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 651,
+    error_message: &#39;NPM Module isn&#39;t valid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#651&#39;
+}
+</pre></div>
+
+
+<p>The error occurs if an invalid npm module value is transmitted.</p>
+<h4 id="652">652</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 652,
+    error_message: &#39;User already exist&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#652&#39;
+}
+</pre></div>
+
+
+<p>The error occurs if this user name already exists in the system</p>
+<h4 id="653">653</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 653,
+    error_message: &#39;User schema isn&#39;t valid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#653&#39;
+}
+</pre></div>
+
+
+<p>The error occurs if invalid user data has been transmitted</p>
+<h4 id="654">654</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 654,
+    error_message: &#39;Access Forbiden&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#654&#39;
+}
+</pre></div>
+
+
+<p>The error occurs if the rights for the action are insufficient.</p>
+<h4 id="655">655</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 655,
+    error_message: &#39;Unauthorized&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#655&#39;
+}
+</pre></div>
+
+
+<p>The error occurs if authorization is required</p>
+<h4 id="656">656</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 656,
+    error_message: &#39;Password must be more than 8 chars&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#656&#39;
+}
+</pre></div>
+
+
+<p>Password must contain at least 8 characters</p>
+<h4 id="657">657</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 657,
+    error_message: &#39;Index name is empty&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#657&#39;
+}
+</pre></div>
+
+
+<p>Index name is empty</p>
+<h4 id="658">658</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 658,
+    error_message: &#39;Owner is empty&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#658&#39;
+}
+</pre></div>
+
+
+<p>Owner is empty</p>
+<h4 id="659">659</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 659,
+    error_message: &#39;Title is empty&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#659&#39;
+}
+</pre></div>
+
+
+<p>Title is empty</p>
+<h4 id="660">660</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 660,
+    error_message: &#39;Order schema is invalid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#660&#39;
+}
+</pre></div>
+
+
+<p>Order schema is invalid</p>
+<h4 id="661">661</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 661,
+    error_message: &#39;Invalid planId&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#661&#39;
+}
+</pre></div>
+
+
+<p>Invalid planId</p>
+<h4 id="662">662</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 662,
+    error_message: &#39;Invalid userId&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#662&#39;
+}
+</pre></div>
+
+
+<p>Invalid userId</p>
+<h4 id="663">663</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 663,
+    error_message: &#39;Plan not found&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#663&#39;
+}
+</pre></div>
+
+
+<p>Plan not found</p>
+<h4 id="664">664</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 664,
+    error_message: &#39;Insufficient funds&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#664&#39;
+}
+</pre></div>
+
+
+<p>Insufficient funds</p>
+<h4 id="665">665</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 665,
+    error_message: &#39;User not found&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#665&#39;
+}
+</pre></div>
+
+
+<p>User not found</p>
+<h4 id="666">666</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 666,
+    error_message: &#39;Key schema isn&#39;t valid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#666&#39;
+}
+</pre></div>
+
+
+<p>Key schema isn't valid</p>
+<h4 id="667">667</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 667,
+    error_message: &#39;Context not found&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#667&#39;
+}
+</pre></div>
+
+
+<p>Context not found</p>
+<h4 id="668">668</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 668,
+    error_message: &#39;Webhook not found&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#668&#39;
+}
+</pre></div>
+
+
+<p>Webhook not found</p>
+<h4 id="669">669</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 669,
+    error_message: &#39;&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#669&#39;
+}
+</pre></div>
+
+
+<p>Errors while executing the connector</p>
+<h4 id="670">670</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 670,
+    error_message: &#39;Connector schema isn&#39;t valid&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#670&#39;
+}
+</pre></div>
+
+
+<p>Connector schema isn't valid</p>
+<h4 id="671">671</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 671,
+    error_message: &#39;Connector name is empty&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#671&#39;
+}
+</pre></div>
+
+
+<p>Connector name is empty</p>
+<h4 id="672">672</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 672,
+    error_message: &#39;Connector must have exutable code&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#672&#39;
+}
+</pre></div>
+
+
+<p>Connector must have exutable code</p>
+<h4 id="673">673</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 673,
+    error_message: &#39;Connector contained invalid param&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#673&#39;
+}
+</pre></div>
+
+
+<p>Connector contained invalid param</p>
+<h4 id="674">674</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 674,
+    error_message: &#39;Not implementate yet&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#674&#39;
+}
+</pre></div>
+
+
+<p>Not implementate yet</p>
+<h4 id="675">675</h4>
+<div class="codehilite"><pre><span></span>{ 
+    error_code: 675,
+    error_message: &#39;Can not remove a system connector&#39;,
+    more_info: &#39;https://mixapp.github.io/main/errors/#675&#39;
+}
+</pre></div>
+
+
+<p>Can not remove a system connector</p>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../sdk/js/process/" title="Process" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Process
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../standalone/" title="Standalone" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Standalone
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2016 - 2017 Mixapp
+          </div>
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://github.com/mixapp" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/mixapp_io" class="md-footer-social__link fa fa-twitter"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application-b30566c560.js"></script>
+      
+      
+      <script>app.initialize({url:{base:"../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>https://mixapp.io/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>https://mixapp.io/main/process/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://mixapp.io/main/connector/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://mixapp.io/main/context/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://mixapp.io/main/bpmapi/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>https://mixapp.io/main/newconnector/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>https://mixapp.io/storage/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://mixapp.io/storage/protocol/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://mixapp.io/restapi/user/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://mixapp.io/restapi/workspaces/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://mixapp.io/restapi/storages/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://mixapp.io/restapi/connectors/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://mixapp.io/restapi/processes/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://mixapp.io/restapi/oidc/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://mixapp.io</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>https://mixapp.io/main/errors/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>https://mixapp.io/standalone/</loc>
+     <lastmod>2017-10-14</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+</urlset>
